@@ -1,1 +1,197 @@
+* {
+    box-sizing: border-box;
+}
 
+:root {
+    --main-bg-color: rgb(250, 250, 250);
+    --main-text-color: rgb(30, 30, 30)
+}
+
+body {
+    margin: 0;
+}
+
+.parallax {
+    /* overflow: hidden; */
+    position: relative;
+    z-index: 0;
+    min-height: 75vh;
+    max-height: 300vh;
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.parallax > * {
+    grid-area: stack;
+    animation: parallax linear;
+    animation-timeline: scroll();
+}
+
+.parallax > img {
+    width: 100%;
+}
+
+header {
+    color: var(--main-text-color);
+    text-align: center;
+    padding-top: 30px;
+    background-color: var(--main-bg-color);
+    height: 120px;
+    width: 100%;
+    position: static;
+    z-index: 100;
+    /* --parallax-speed: 20; */
+}
+
+.parallax__stevie1 {
+    z-index: -50;
+    background-image: url(/public/stevie-nicks-01.png);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    --parallax-speed: 10;
+}
+
+.parallax__about {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+    z-index: 90;
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height: 500px;
+    /* --parallax-speed: 20; */
+}
+
+.parallax__stevie2 {
+    z-index: -40;
+    background-image: url(/public/stevie-nicks-02.png);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    width: 100%;
+    position: absolute;
+    top: 103%;
+    --parallax-speed: 10;
+}
+
+.parallax__services {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 560px;
+    color: var(--main-text-color);
+    text-align: center;
+    position: absolute;
+    top: 248%;
+    /* --parallax-speed: 20; */
+}
+
+.parallax__stevie3 {
+    z-index: -40;
+    background-image: url(/public/hbz-stevie-nicks-1975-gettyimages-151275447-1497455912.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 198%;
+    --parallax-speed: 10;
+}
+
+.parallax__testimonial1 {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 555px;
+    color: var(--main-text-color);
+    text-align: center;
+    position: absolute;
+    top: 420%;
+    /* --parallax-speed: 20; */
+}
+
+.parallax__stevie4 {
+    z-index: -30;
+    background-image: url(/public/IMG_0607.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 295%;
+    --parallax-speed: 10;
+}
+
+.parallax__testimonial2 {
+    background-color:var(--main-bg-color);
+    width: 100%;
+    height: 550px;
+    color: var(--main-text-color);
+    text-align: center;
+    position: absolute;
+    top: 605%;
+    /* --parallax-speed: 20; */
+}
+
+.parallax__stevie5 {
+    z-index: -20;
+    background-image: url(/public/hbz-stevie-nicks-1977-gettyimages-636639784-1497455915.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 398%;
+    --parallax-speed: 10;
+}
+
+.parallax__testimonial3 {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 550px;
+    color: var(--main-text-color);
+    text-align: center;
+    position: absolute;
+    top: 790%;
+    /* --parallax-speed: 20; */
+}
+.parallax__stevie6 {
+    z-index: -20;
+    background-image: url(/public/hbz-stevie-nicks-1978-gettyimages-86122858-1497455915.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 490%;
+    --parallax-speed: 10;
+}
+
+.text-box {
+    text-align: left;
+    margin: 10px auto;
+    max-width: 600px;
+    min-width: 280px;
+    height: fit-content;
+}
+
+footer {
+    background-color:var(--main-bg-color);
+    width: 100%;
+    height: 400px;
+    color: var(--main-text-color);
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    top: 720%;
+}
+
+@keyframes parallax {
+    to {
+      transform: 
+        translateY(calc(var(--parallax-speed) * 200px));
+    }
+  }
