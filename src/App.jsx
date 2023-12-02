@@ -40,31 +40,31 @@ function App() {
                 <li>cillum adipisicing occaecat </li>
                 <li>sint deserunt cupidatat</li>
               </ul>
-              <p>Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud.</p>
+              <p>Non cillum adipisicing occaecat et pariatur laborum est dolore officia aliqua reprehenderit veniam esse sint deserunt cupidatat dolor amet ad velit nostrud.</p>
             </div>
           </div>
 
           <div className="parallax__stevie3"></div>
 
           <div className="fake-companies">
-            <div className="logo"></div>
-            <div className="logo"></div>
-            <div className="logo"></div>
+            <h2>Client Company One</h2>
+            <h2>Client Company Two</h2>
+            <h2>Client Company Three</h2>
+            <h2>Client Company Four</h2>
+            <h2>Client Company Five</h2>
           </div>
 
-          <div id="info" className="parallax__testimonial1">
-            <div className="text-box">
-              <h2>Testimonial A</h2>
-              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia."</p>
+          <div id="quote" className="parallax__testimonial1">
+            <div className="testimonial">
+              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia."</p>
               <h4>-Christine McVie, musician</h4>
             </div>
           </div>
 
           <div className="parallax__stevie4"></div>
 
-          <div id="info" className="parallax__testimonial2">
-            <div className="text-box">
-              <h2>Testimonial B</h2>
+          <div id="quote" className="parallax__testimonial2">
+            <div className="testimonial">
               <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. "</p>
               <h4>-Lindsey Buckingham, musician</h4>
             </div>
@@ -72,9 +72,8 @@ function App() {
 
           <div className="parallax__stevie5"></div>
 
-          <div id="info" className="parallax__testimonial3">
-            <div className="text-box">
-              <h2>Testimonial C</h2>
+          <div id="quote" className="parallax__testimonial3">
+            <div className="testimonial">
               <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia."</p>
               <h4>-Mick Fleetwood, musician</h4>
             </div>
@@ -84,7 +83,7 @@ function App() {
 
           <footer id="info">
             <div className="text-box">
-              <h2>Contact</h2>
+              <h3>Contact</h3>
               <h3>Megan Stewart</h3>
               <h3>Irure laborum est</h3>
               <h3>Richmond, VA</h3>
@@ -92,6 +91,7 @@ function App() {
               <h4>	&#169;2024 Spark*Coaching, LLC</h4>
             </div>
           </footer>
+
         </div>
       </div>
     </>
