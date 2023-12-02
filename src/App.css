@@ -258,14 +258,21 @@ General Styles
 
 
 #quote p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Marcellus', serif;
     font-weight: 200;
     margin-left: 2rem;
     margin-right: 2rem;
     line-height: 2.5rem;
     font-size: 1.75rem;
     margin-top: 6rem;
+    text-align: start;
     color: rgb(91, 15, 15);
+}
+
+#quote h4 {
+    font-family: 'Marcellus', serif;
+    text-align: end;
+    margin-right: 2rem;
 }
 
 #info h4 {
@@ -282,25 +289,25 @@ General Styles
     font-size: 1.22rem;
 }
 
-.fake-companies {
+
+.buzzwords {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    display: flex;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+    display: flex; 
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: antiquewhite;
-    width: 90%;
     position: absolute;
-    top: 290%;
-    padding: 40px;
+    top: 200%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     transform: translateZ(-5px) scale(1.5);
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: var(--main-bg-color) 4px solid;
+.buzzwords h2 {
+    color: rgba(249, 239, 227, 0.7);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

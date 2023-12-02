@@ -46,12 +46,23 @@ function App() {
 
           <div className="parallax__stevie3"></div>
 
-          <div className="fake-companies">
-            <h2>Client Company One</h2>
-            <h2>Client Company Two</h2>
-            <h2>Client Company Three</h2>
-            <h2>Client Company Four</h2>
-            <h2>Client Company Five</h2>
+          <div className="buzzwords">
+            <h2>Leadership</h2>
+            <h2>Coaching</h2>
+            <h2>Support</h2>
+            <h2>Guidance</h2>
+            <h2>Direction</h2>
+            <h2>Encouragement</h2>
+            <h2>Direction</h2>
+            <h2>Stewardship</h2>
+            <h2>Navigation</h2>
+            <h2>Caring</h2>
+            <h2>Stewardship</h2>
+            <h2>Cultivation</h2>
+            <h2>Polishing</h2>
+            <h2>Sharpening</h2>
+            <h2>Focus</h2>
+            <h2>Potential</h2>
           </div>
 
           <div id="quote" className="parallax__testimonial1">
@@ -65,7 +76,7 @@ function App() {
 
           <div id="quote" className="parallax__testimonial2">
             <div className="testimonial">
-              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. "</p>
+              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu."</p>
               <h4>-Lindsey Buckingham, musician</h4>
             </div>
           </div>
@@ -88,7 +99,7 @@ function App() {
               <h3>Irure laborum est</h3>
               <h3>Richmond, VA</h3>
               <h3>555-555-5555</h3>
-              <h4>	&#169;2024 Spark*Coaching, LLC</h4>
+              <h4>&#169;2024 Spark*Coaching, LLC</h4>
             </div>
           </footer>
 
