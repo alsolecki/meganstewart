@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header.jsx';
+import About from './components/About.jsx';
+import Services from './components/Services.jsx';
+import Testimonial from './components/Testimonial.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
@@ -8,45 +13,19 @@ function App() {
       <div className="wrapper">
         <div className="parallax">
 
-          <header>
-            <div className="title">
-              <h1>Spark*</h1>
-              <h1>Coaching</h1>
-            </div>
-          </header>
+          <Header />
 
-          <div className="parallax__stevie1">
-          </div>
+          <div className="parallax__stevie1"></div>
 
-          <div id="info" className="parallax__about">
-            <div className="text-box">
-              <h2>About</h2>
-              <p>Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia. Nulla ex sunt eiusmod quis. Tempor laborum qui tempor incididunt ut aliquip ipsum ipsum qui nulla incididunt.
-              </p>
-            </div>
-          </div>
+          <About />
 
-          <div className="parallax__stevie2">
-          </div>
+          <div className="parallax__stevie2"></div>
 
-          <div id="info" className="parallax__services">
-            <div className="text-box">
-              <h2>Services</h2>
-              <p>Irure laborum est dolore officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu.</p>
-              <ul>
-                <li>ipsum magna cupidatat</li>
-                <li>est dolore officia </li>
-                <li>pariatur</li>
-                <li>cillum adipisicing occaecat </li>
-                <li>sint deserunt cupidatat</li>
-              </ul>
-              <p>Non cillum adipisicing occaecat et pariatur laborum est dolore officia aliqua reprehenderit veniam esse sint deserunt cupidatat dolor amet ad velit nostrud.</p>
-            </div>
-          </div>
+          <Services />
 
           <div className="parallax__stevie3"></div>
 
-          <div className="buzzwords">
+          {/* <div className="buzzwords">
             <h2>Leadership</h2>
             <h2>Coaching</h2>
             <h2>Support</h2>
@@ -54,54 +33,20 @@ function App() {
             <h2>Direction</h2>
             <h2>Encouragement</h2>
             <h2>Direction</h2>
-            <h2>Stewardship</h2>
             <h2>Navigation</h2>
             <h2>Caring</h2>
-            <h2>Stewardship</h2>
             <h2>Cultivation</h2>
-            <h2>Polishing</h2>
             <h2>Sharpening</h2>
             <h2>Focus</h2>
             <h2>Potential</h2>
-          </div>
+          </div> */}
 
-          <div id="quote" className="parallax__testimonial1">
-            <div className="testimonial">
-              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia."</p>
-              <h4>-Christine McVie, musician</h4>
-            </div>
-          </div>
+          <Testimonial />
 
           <div className="parallax__stevie4"></div>
 
-          <div id="quote" className="parallax__testimonial2">
-            <div className="testimonial">
-              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu."</p>
-              <h4>-Lindsey Buckingham, musician</h4>
-            </div>
-          </div>
+          <Footer />
 
-          <div className="parallax__stevie5"></div>
-
-          <div id="quote" className="parallax__testimonial3">
-            <div className="testimonial">
-              <p>"Non cillum adipisicing occaecat et pariatur esse sint deserunt cupidatat dolor amet ad velit nostrud. Irure laborum est dolore officia aliqua reprehenderit veniam ipsum magna cupidatat consectetur commodo eu. Proident irure voluptate magna dolor nulla reprehenderit ullamco officia."</p>
-              <h4>-Mick Fleetwood, musician</h4>
-            </div>
-          </div>
-
-          <div className="parallax__stevie6"></div>
-
-          <footer id="info">
-            <div className="text-box">
-              <h3>Contact</h3>
-              <h3>Megan Stewart</h3>
-              <h3>Irure laborum est</h3>
-              <h3>Richmond, VA</h3>
-              <h3>555-555-5555</h3>
-              <h4>&#169;2024 Spark*Coaching, LLC</h4>
-            </div>
-          </footer>
 
         </div>
       </div>
