@@ -14,9 +14,28 @@ const Header = () => {
             justifyContent: 'center',
             top: '0'
         }}>
-            <div className="title">
-                <h1>Spark*</h1>
-                <h1>Coaching</h1>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+                justifyContent: 'flex-end',
+                paddingBottom: '1rem'
+            }}>
+                <h1 style={{
+                    fontFamily: `'Raleway', sans-serif`,
+                    fontStyle: 'italic',
+                    fontWeight: '600',
+                    fontSize: '2rem',
+                    margin: '2px 0 -8px'
+                }}>Spark*</h1>
+                <h1 style={{
+                    fontFamily: `'Raleway', sans-serif`,
+                    fontStyle: 'normal',
+                    fontWeight: '300',
+                    fontSize: '1.45rem',
+                    paddingBottom: '4px',
+                    margin: '0'
+                }}>Coaching</h1>
             </div>
         </header>
     )

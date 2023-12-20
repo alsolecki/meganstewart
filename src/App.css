@@ -29,124 +29,6 @@ body {
     z-index: -1;
 }
 
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding-bottom: 20px;
-}
-
-header h1 {
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: -8px;
-    margin-top: 2px;
-}
-header h1:last-child {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.45rem;
-    padding-bottom: 4px;
-}
-
-.parallax__stevie1 {
-    z-index: -50;
-    background-image: url(/stevie-nicks-01.png);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    width: 100%;
-    position: absolute;
-    top: -15%;
-    filter: blur(3px) invert(20%);
-    transform: translateZ(-10px) scale(2);
-}
-
-.parallax__about {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-    text-align: center;
-    z-index: 90;
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    height: 600px;
-}
-
-.parallax__stevie2 {
-    z-index: -40;
-    background-image: url(/stevie-nicks-02.png);
-    background-size: cover;
-    background-position: center;
-    height: 550px;
-    width: 100%;
-    position: absolute;
-    top: 140%;
-    filter: blur(3px) invert(20%);
-    transform: translateZ(-10px) scale(2);
-}
-
-.parallax__services {
-    background-color: var(--main-bg-color);
-    width: 100%;
-    height: 740px;
-    color: var(--main-text-color);
-    text-align: center;
-    position: absolute;
-    top: 198%;
-}
-
-.parallax__stevie3 {
-    z-index: -40;
-    background-image: url(/hbz-stevie-nicks-1975-gettyimages-151275447-1497455912.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 550px;
-    width: 100%;
-    position: absolute;
-    top: 290%;
-    filter: blur(3px) invert(20%);
-    transform: translateZ(-10px) scale(2);
-}
-
-.parallax__testimonial1 {
-    background-color: var(--main-bg-color);
-    width: 100%;
-    height: 760px;
-    color: var(--main-text-color);
-    text-align: center;
-    position: absolute;
-    top: 335%;
-}
-
-.parallax__stevie4 {
-    z-index: -30;
-    background-image: url(/hbz-stevie-nicks-1975-gettyimages-151275448-1497455914.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 550px;
-    width: 100%;
-    position: absolute;
-    top: 430%;
-    filter: blur(3px);
-    transform: translateZ(-10px) scale(2);
-}
-
-footer {
-    background-color:var(--main-bg-color);
-    width: 100%;
-    height: 380px;
-    color: var(--main-text-color);
-    text-align: center;
-    z-index: 100;
-    position: absolute;
-    top: 500%;
-    padding-top: 2rem;
-}
 
 /* 
 General Styles
@@ -230,7 +112,6 @@ General Styles
     line-height: 2rem;
     font-size: 1.22rem;
 }
-
 
 .buzzwords {
     font-family: 'Raleway', sans-serif;
