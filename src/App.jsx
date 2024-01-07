@@ -14,55 +14,45 @@ function App() {
       <div className="parallax">
         <Header />
         <ParallaxImage
-          imagePath='/stevie-nicks-01.png'
-          height='500px'
-          top='0%'
+          imagePath='/headshot.jpg'
+          height='560px'
+          top='10%'
         />
         <About
-          height='560px'
+          height='720px'
           top='70%'
         />
         <ParallaxImage
-          imagePath='/stevie-nicks-02.png'
+          imagePath='/black-and-white-blur-bright-dawn.jpg'
           height='550px'
           top='140%'
         />
         <Services
           height='720px'
-          top='200%'
+          top='240%'
         />
         <ParallaxImage
-          imagePath='/hbz-stevie-nicks-1975-gettyimages-151275447-1497455912.jpg'
+          imagePath='/69934784_medium.jpg'
           height='750px'
           top='310%'
         />
 
-        {/* <div className="buzzwords">
-            <h2>Leadership</h2>
-            <h2>Coaching</h2>
+        <div className="buzzwords">
+            <h2>Connection</h2>
+            <h2>Strategy</h2>
             <h2>Support</h2>
-            <h2>Guidance</h2>
-            <h2>Direction</h2>
-            <h2>Encouragement</h2>
-            <h2>Direction</h2>
-            <h2>Navigation</h2>
-            <h2>Caring</h2>
-            <h2>Cultivation</h2>
-            <h2>Sharpening</h2>
-            <h2>Focus</h2>
-            <h2>Potential</h2>
-          </div> */}
+          </div>
 
         <Testimonial
           height='600px'
-          top='350%'
+          top='420%'
         />
         <ParallaxImage
-          imagePath='/hbz-stevie-nicks-1978-gettyimages-86122858-1497455915.jpg'
+          imagePath='/unnamed1.jpg'
           height='550px'
-          top='440%'
+          top='520%'
         />
-        <Footer top='520%' />
+        <Footer top='600%' />
       </div>
     </div>
   )
