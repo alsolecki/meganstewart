@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '/sparklogo.svg'
 
 const Header = () => {
     return (
@@ -21,21 +22,15 @@ const Header = () => {
                 justifyContent: 'flex-end',
                 paddingBottom: '1rem'
             }}>
-                <h1 style={{
-                    fontFamily: `'Raleway', sans-serif`,
-                    fontStyle: 'italic',
-                    fontWeight: '600',
-                    fontSize: '2rem',
-                    margin: '2px 0 -8px'
-                }}>Spark*</h1>
-                <h1 style={{
-                    fontFamily: `'Raleway', sans-serif`,
-                    fontStyle: 'normal',
-                    fontWeight: '300',
-                    fontSize: '1.45rem',
-                    paddingBottom: '4px',
-                    margin: '0'
-                }}>Coaching</h1>
+
+                <img
+                    src={logo}
+                    style={{
+                        width: '100%',
+                        height: '2.5rem'
+                    }}
+                />
+
             </div>
         </header>
     )

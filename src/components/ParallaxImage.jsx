@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ParallaxImage = ( { imagePath, top, height } ) => {
+const ParallaxImage = ( { imagePath, top, height, transform } ) => {
   return (
     <img 
         src={imagePath} 
@@ -12,8 +12,8 @@ const ParallaxImage = ( { imagePath, top, height } ) => {
             objectPosition: 'center',
             position: 'absolute',
             top: top,
-            filter: 'blur(3px) invert(20%)',
-            transform: 'translateZ(-10px) scale(2)'
+            // filter: 'blur(3px) invert(20%)',
+            transform: transform
         }}>
     
     </img>
