@@ -8,11 +8,11 @@ const Footer = ( { top } ) => {
                 backgroundColor: 'var(--main-bg-color)',
                 color: 'var(--main-text-color)',
                 width: '100%',
-                height: '260px',
+                height: '310px',
                 textAlign: 'center',
                 position: 'absolute',
                 top: top,
-                paddingTop: '2rem'
+                paddingTop: '3rem'
             }}
             >
             <div className="text-box">

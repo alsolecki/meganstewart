@@ -20,35 +20,41 @@ function App() {
           top='10%'
           transform='translateZ(-10px) scale(2)'
         />
+
         <About
           height='600px'
           top='90%'
         />
 
+        <Methodology
+          height='580px'
+          top='185%'
+        />
+        
         <ParallaxImage
           imagePath='/black-and-white-blur-bright-dawn.jpg'
           height='600px'
-          top='180%'
+          top='270%'
           transform='translateZ(-10px) scale(2)'
         />
-        <Methodology
-          height='720px'
-          top='240%'
+
+        <Testimonial
+          height='660px'
+          top='370%'
         />
-
-
-        <Results
-          height='1200px'
-          top='420%'
-        />
-
-
+        
         <ParallaxImage
           imagePath='/69934784_medium.jpg'
           height='750px'
-          top='360%'
+          top='490%'
           transform='translateZ(-10px) scale(2)'
         />
+
+        <Results
+          height='1200px'
+          top='620%'
+        />
+
 
 
         <div className="buzzwords">
@@ -57,19 +63,16 @@ function App() {
           <h2>Support</h2>
         </div>
 
-        {/* <Testimonial
-          height='600px'
-          top='420%'
-        /> */}
+
 
 
         <ParallaxImage
           imagePath='/unnamed1.jpg'
           height='550px'
-          top='630%'
+          top='820%'
           transform='translateZ(-10px) scale(2)'
         />
-        <Footer top='720%' />
+        <Footer top='910%' />
       </div>
     </div>
   )
