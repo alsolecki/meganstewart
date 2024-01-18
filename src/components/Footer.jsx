@@ -15,7 +15,7 @@ const Footer = ( { top } ) => {
                 paddingTop: '3rem'
             }}
             >
-            <div className="text-box">
+            <div className="contact">
                 <h3>Contact:</h3>
                 <h3>megan.spark.coaching@gmail.com</h3>
                 <h4>&#169;2024 Spark*Coaching, LLC</h4>

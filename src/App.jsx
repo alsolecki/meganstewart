@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
-import Methodology from './components/Methodology.jsx';
 import Footer from './components/Footer.jsx';
 import ParallaxImage from './components/ParallaxImage.jsx';
 import Results from './components/Results.jsx';
@@ -24,73 +23,68 @@ function App() {
         />
 
         <About
-          height='600px'
+          height='980px'
           top='90%'
-        />
-
-        <Methodology
-          height='580px'
-          top='185%'
         />
         
         <ParallaxImage
           imagePath='/black-and-white-blur-bright-dawn.jpg'
           height='600px'
-          top='270%'
+          top='220%'
           transform='translateZ(-10px) scale(2)'
         />
 
         <Buzzword
             word='Strategy'
-            top='300%'
+            top='240%'
         />
 
         <Testimonial
-          height='660px'
-          top='370%'
+          height='670px'
+          top='300%'
         />
         
         <Buzzword
             word='Connection'
-            top='520%'
+            top='420%'
         />
 
         <ParallaxImage
           imagePath='/69934784_medium.jpg'
           height='750px'
-          top='490%'
+          top='410%'
           transform='translateZ(-10px) scale(2)'
         />
 
         <Results
-          height='1200px'
-          top='610%'
+          height='1100px'
+          top='470%'
         />
 
         <ParallaxImage
           imagePath='/dandelion.jpg'
           height='550px'
-          top='810%'
+          top='620%'
           transform='translateZ(-10px) scale(2)'
         />
 
         <Buzzword
             word='Support'
-            top='840%'
+            top='640%'
         />
 
         <Testimonial2
-          height='660px'
-          top='900%'
+          height='680px'
+          top='690%'
         />
 
         <ParallaxImage
           imagePath='/unnamed1.jpg'
           height='560px'
-          top='1015%'
+          top='780%'
           transform='translateZ(-10px) scale(2)'
         />
-        <Footer top='1110%' />
+        <Footer top='860%' />
       </div>
     </div>
   )
