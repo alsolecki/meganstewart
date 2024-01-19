@@ -53,7 +53,7 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword word='Support' top='640%' />
+        <Buzzword word='Compassion' top='640%' />
 
         <Testimonial2 height='680px' top='690%' />
 
