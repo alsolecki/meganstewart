@@ -15,9 +15,12 @@ const Footer = ( { top } ) => {
                 paddingTop: '3rem'
             }}
             >
-            <div className="contact">
+            <div>
                 <h3>Contact:</h3>
+                <a href="mailto:megan.spark.coaching@gmail.com">
                 <h3>megan.spark.coaching@gmail.com</h3>
+                </a>
+                    
                 <h4>&#169;2024 Spark*Coaching, LLC</h4>
             </div>
         </footer>

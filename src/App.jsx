@@ -22,10 +22,7 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <About
-          height='980px'
-          top='90%'
-        />
+        <About height='980px' top='90%'/>
         
         <ParallaxImage
           imagePath='/black-and-white-blur-bright-dawn.jpg'
@@ -34,20 +31,11 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword
-            word='Strategy'
-            top='240%'
-        />
+        <Buzzword word='Strategy' top='240%' />
 
-        <Testimonial
-          height='670px'
-          top='300%'
-        />
+        <Testimonial height='670px' top='300%' />
         
-        <Buzzword
-            word='Connection'
-            top='420%'
-        />
+        <Buzzword word='Connection' top='420%' />
 
         <ParallaxImage
           imagePath='/69934784_medium.jpg'
@@ -56,10 +44,7 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Results
-          height='1100px'
-          top='470%'
-        />
+        <Results height='1100px' top='470%'/>
 
         <ParallaxImage
           imagePath='/dandelion.jpg'
@@ -68,15 +53,9 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword
-            word='Support'
-            top='640%'
-        />
+        <Buzzword word='Support' top='640%' />
 
-        <Testimonial2
-          height='680px'
-          top='690%'
-        />
+        <Testimonial2 height='680px' top='690%' />
 
         <ParallaxImage
           imagePath='/unnamed1.jpg'
@@ -84,7 +63,9 @@ function App() {
           top='780%'
           transform='translateZ(-10px) scale(2)'
         />
-        <Footer top='860%' />
+
+        <Footer top='875%' />
+
       </div>
     </div>
   )

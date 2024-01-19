@@ -3,7 +3,7 @@ import React from 'react'
 const Buzzword = ({ word, top }) => {
     return (
         <div style={{
-                color: 'rgba(249, 239, 227, 0.7)',
+                color: 'var(--spark-goldTrans-color)',
                 fontFamily: `'Raleway', sans-serif`,
                 fontWeight: '200',
                 fontStyle: 'normal',
