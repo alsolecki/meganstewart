@@ -8,6 +8,7 @@ import Results from './components/Results.jsx';
 import Buzzword from './components/Buzzword.jsx';
 import Testimonial from './components/Testimonial.jsx';
 import Testimonial2 from './components/Testimonial2.jsx';
+import Testimonial3 from './components/Testimonial3.jsx';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword word='Strategy' top='240%' />
+        <Buzzword word='Strategy' top='250%' />
 
         <Testimonial height='670px' top='300%' />
         
@@ -47,24 +48,35 @@ function App() {
         <Results height='1100px' top='470%'/>
 
         <ParallaxImage
-          imagePath='/dandelion.jpg'
+          imagePath='/stream.jpg'
           height='550px'
           top='620%'
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword word='Compassion' top='640%' />
+        <Buzzword word='Support' top='650%' />
 
-        <Testimonial2 height='680px' top='690%' />
+        <Testimonial2 height='690px' top='700%' />
+
+        <ParallaxImage
+          imagePath='/dandelion.jpg'
+          height='550px'
+          top='810%'
+          transform='translateZ(-10px) scale(2)'
+        />
+
+        <Buzzword word='Compassion' top='830%' />
+
+        <Testimonial3 height='680px' top='860%' />
 
         <ParallaxImage
           imagePath='/unnamed1.jpg'
           height='560px'
-          top='780%'
+          top='970%'
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Footer top='875%' />
+        <Footer top='1065%' />
 
       </div>
     </div>

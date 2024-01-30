@@ -14,8 +14,8 @@ const Testimonial2 = ( {top, height} ) => {
         textAlign: 'center'
       }}>
       <div className="testimonial">
-        <p>"Megan is the most impactful mentor I've had in my decade-long career because she leads with authenticity, expertise, and genuine care. As an action-oriented professional, Megan has coached me on how to prepare for difficult conversations, giving and receiving feedback, as well as salary negotiations."</p>
-        <h4>-Account Executive, Salesforce</h4>
+        <p>"Megan is an outstanding thought partner and advisor. She challenges her clients to maximize their potential: inspiring them to trust their intuition, leverage their natural strengths, and overcome their limiting beliefs — making goals feel both stretchy and profoundly doable. I’d recommend Megan highly to anybody looking to level up."</p>
+        <h4>{`-Randi Braun, Founder & CEO of Something Major`}</h4>
       </div>
     </div>
   )

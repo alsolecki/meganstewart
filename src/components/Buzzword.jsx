@@ -6,7 +6,7 @@ const Buzzword = ({ word, top }) => {
                 color: 'var(--spark-goldTrans-color)',
                 fontFamily: `'Raleway', sans-serif`,
                 fontWeight: '200',
-                fontStyle: 'normal',
+                fontStyle: 'italic',
                 fontSize: '2.75rem',
                 textAlign: 'center',
                 position: 'absolute',
