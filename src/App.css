@@ -101,7 +101,9 @@ General Styles
 #quote h4 {
     font-family: 'Marcellus', serif;
     text-align: start;
-    margin-left: 2rem;
+    margin: 3rem auto;
+    padding-left: 2rem;
+    max-width: 720px;
     color: var(--spark-red-color);
 }
 
