@@ -89,7 +89,7 @@ General Styles
 #quote p {
     font-family: 'Marcellus', serif;
     font-weight: 200;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 2rem;
     line-height: 2.75rem;
     font-size: 1.75rem;
@@ -129,7 +129,7 @@ General Styles
   MEDIA QUERIES
 ==================================== */
 
-@media (min-width: 0) and (max-width: 500px) {
+@media (min-width: 0) and (max-width: 550px) {
     
     #info p {
         line-height: 2.0rem;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
@@ -11,6 +11,21 @@ import Testimonial2 from './components/Testimonial2.jsx';
 import Testimonial3 from './components/Testimonial3.jsx';
 
 function App() {
+
+  const [ width, setWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [])
+
+  console.log(width)
 
   return (
     <div className="wrapper">
@@ -54,7 +69,7 @@ function App() {
           transform='translateZ(-10px) scale(2)'
         />
 
-        <Buzzword word='Support' top='650%' />
+        <Buzzword word='Motivation' top='650%' />
 
         <Testimonial2 height='690px' top='700%' />
 
@@ -67,7 +82,7 @@ function App() {
 
         <Buzzword word='Compassion' top='830%' />
 
-        <Testimonial3 height='680px' top='860%' />
+        <Testimonial3 height='860px' top='860%' />
 
         <ParallaxImage
           imagePath='/unnamed1.jpg'
