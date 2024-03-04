@@ -25,8 +25,6 @@ function App() {
     };
   }, [])
 
-  console.log(width)
-
   return (
     <div className="wrapper">
       <div className="parallax">
