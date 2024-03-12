@@ -5,7 +5,7 @@ const Footer = ( { top } ) => {
         <footer
             id="info"
             style={{
-                backgroundColor: 'var(--main-bg-color)',
+                backgroundColor: 'var(--sub-bg-color)',
                 color: 'var(--main-text-color)',
                 width: '100%',
                 height: '310px',
@@ -21,7 +21,7 @@ const Footer = ( { top } ) => {
                 <h3>megan@sparkcoachingllc.com</h3>
                 </a>
                     
-                <h4>&#169;2024 Spark*Coaching, LLC</h4>
+                <h4>&#169;2024 sparkcoaching, llc</h4>
             </div>
         </footer>
     )
